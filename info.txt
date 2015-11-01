@@ -1,0 +1,1 @@
+http://download.oracle.com/otn-pub/java/jdk/8u65-b17/jdk-8u65-linux-i586.tar.gz?AuthParam=1446389368_005afee2003c2c07f951bd1cd0c50fe0
