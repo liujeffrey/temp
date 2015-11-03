@@ -22,19 +22,19 @@ void quick_sort(int a[], int low, int high)
   {
 	 i = low;
      j = high;
-     pivok = a[i]; 
+     pivok = a[low]; 
 	 while(i < j) 
      { 
-		while(i < j && a[j] > pivok)
+		while(i < j && a[j] >= pivok)
 		   j--;
 		if (i < j)
 		  a[i++] = a[j];
 		
-		while(i < j && a[i] < pivok)
+		while(i < j && a[i] <= pivok)
 		  i++;
 		  
 		if (i < j)
-		  a[j] = a[i++];
+		  a[j--] = a[i];
      }
 	 a[i] = pivok;
 	 quick_sort(a, low, i - 1);
